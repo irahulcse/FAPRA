@@ -1,0 +1,19 @@
+{
+  "logic": "OR",
+  "scalar": [
+    {
+      "data section": "speed",
+      "relation": "GREATER",
+      "value": 50.0
+    }
+  ],
+  "location": [
+    {
+      "relation": "IN",
+      "value": {
+        "x": [12.0, 18.0, 18.0, 12.0],
+        "y": [12.0, 12.0, 18.0, 18.0]
+      }
+    }
+  ]
+}

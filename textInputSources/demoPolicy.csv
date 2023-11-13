@@ -1,0 +1,9 @@
+﻿app,section,predicate,pet,prio
+app1,speed,predicate_in_30z.json,speedPET1.json,4
+app1,location,predicate_in_30z.json,noPET.json,4
+app1,image,predicate_in_residential.json,imagePET1.json,4
+app1,image,predicate_out_residential.json,imagePET2.json,4
+app1,image,predicate_in_red.json,noPET.json,2
+app2,speed,predicate_in_30z.json,speedPET1.json,4
+app2,image,predicate_in_30z.json,imagePET2.json,4
+app2,location,predicate_in_30z.json,noPET.json,4

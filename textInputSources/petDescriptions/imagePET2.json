@@ -1,0 +1,20 @@
+{
+  "name": "thesis.pet.repo.ImageAnonymizerPET",
+  "inputDataSection": ["image"],
+  "outputDataSection": ["image"],
+  "outputType": "thesis.context.data.ImageData",
+  "inputType": "thesis.context.data.ImageData",
+  "stateWindow": [
+    {
+      "dataSection": "image",
+      "type": "piece",
+      "size": 1
+    }],
+  "parameters": [
+    {
+      "name": "pythonMainPath",
+      "type": "java.lang.String",
+      "value": "/Users/zhudasch/Documents/Studium/05_Masterarbeit/LiveAdaptationFramework/src/main/java/thesis/pet/repo/python/mode2.py"
+    }
+  ]
+}

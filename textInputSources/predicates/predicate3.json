@@ -1,0 +1,19 @@
+{
+  "logic": "OR",
+  "scalar": [
+    {
+      "data section": "speed",
+      "relation": "LESS_EQUAL",
+      "value": 50.0
+    }
+  ],
+  "location": [
+    {
+      "relation": "OUT_OF",
+      "value": {
+        "x": [12.0, 18.0, 18.0, 12.0],
+        "y": [12.0, 12.0, 18.0, 18.0]
+      }
+    }
+  ]
+}

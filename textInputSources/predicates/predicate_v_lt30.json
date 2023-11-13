@@ -1,0 +1,9 @@
+{
+  "scalar": [
+    {
+      "data section": "speed",
+      "relation": "LESS_EQUAL",
+      "value": 30.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "thesis.pet.repo.ImageAnonymizerPET",
+  "inputDataSection": ["image"],
+  "outputDataSection": ["image"],
+  "outputType": "thesis.context.data.ImageData",
+  "inputType": "thesis.context.data.ImageData",
+  "parameters": [
+    {
+      "name": "pythonMainPath",
+      "type": "java.lang.String",
+      "value": "/Users/zhudasch/Documents/Studium/05_Masterarbeit/LiveAdaptationFramework/src/main/java/thesis/pet/repo/python/Main.py"
+    }
+  ],
+  "preprocess": {
+    "name": "thesis.pet.repo.AverageSpeed",
+    "inputDataSection": ["speed"],
+    "outputDataSection": ["speed"],
+    "outputType": "java.lang.Double",
+    "inputType": "java.lang.Double",
+    "windowSize": 5,
+    "parameters": [
+      {
+        "name": "size",
+        "type": "java.lang.Integer",
+        "value": 5
+      }
+    ]
+  }
+}

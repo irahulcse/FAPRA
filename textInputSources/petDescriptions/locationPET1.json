@@ -1,0 +1,40 @@
+{
+  "name": "thesis.pet.repo.AdaptiveGeoPET",
+  "inputDataSection": ["location"],
+  "outputDataSection": ["location"],
+  "outputType": "thesis.context.data.LocationData",
+  "inputType": "thesis.context.data.LocationData",
+  "windowSize": 4,
+  "parameters": [
+    {
+      "name": "size",
+      "type": "java.lang.Integer",
+      "value": 4
+    },
+    {
+      "name": "threshold1",
+      "type": "java.lang.Double",
+      "value": 9.6
+    },
+    {
+      "name": "threshold2",
+      "type": "java.lang.Double",
+      "value": 27.0
+    },
+    {
+      "name": "epsilon",
+      "type": "java.lang.Double",
+      "value": 0.1
+    },
+    {
+      "name": "alpha",
+      "type": "java.lang.Double",
+      "value": 0.1
+    },
+    {
+      "name": "beta",
+      "type": "java.lang.Double",
+      "value": 0.1
+    }
+  ]
+}

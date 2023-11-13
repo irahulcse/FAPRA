@@ -1,0 +1,40 @@
+{
+  "name": "thesis.pet.repo.SpeedAnonymizer",
+  "inputDataSection": ["speed"],
+  "outputDataSection": ["speed"],
+  "outputType": "java.lang.Double",
+  "inputType": "java.lang.Double",
+  "stateWindow": [
+    {
+      "dataSection": "speed",
+      "type": "piece",
+      "size": 1
+    }],
+  "parameters": [
+    {
+      "name": "min",
+      "type": "java.lang.Double",
+      "value": 20
+    },
+    {
+      "name": "max",
+      "type": "java.lang.Double",
+      "value": 30
+    },
+    {
+      "name": "gamma",
+      "type": "java.lang.Double",
+      "value": 10
+    },
+    {
+      "name": "relax",
+      "type": "java.time.Duration",
+      "value": "PT1S"
+    },
+    {
+      "name": "defaultDeviation",
+      "type": "java.lang.Double",
+      "value": 2.5
+    }
+  ]
+}
